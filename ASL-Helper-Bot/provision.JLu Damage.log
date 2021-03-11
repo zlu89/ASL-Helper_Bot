@@ -1,0 +1,13 @@
+{
+  "profileName": "JLu Damage",
+  "jobId": "40b5f924-91a1-4fdf-af1b-7a162bdb2ed7",
+  "projectId": "68871.45835599765",
+  "time": "2021-03-02T03:25:55.846Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "{\"stack\":\"Error\\n    at new t (C:\\\\Users\\\\jhrach700\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\lib\\\\node\\\\index.js:16:37408)\\n    at C:\\\\Users\\\\jhrach700\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\lib\\\\node\\\\index.js:18:103741\",\"message\":\"\",\"statusCode\":403,\"request\":{},\"response\":{\"body\":\"\"}}",
+    "{\"name\":\"CREATE_RESOURCES_ERROR\",\"message\":\"Error - \",\"stack\":\"Error\\n    at new n (C:\\\\Users\\\\jhrach700\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\lib\\\\node\\\\index.js:18:97996)\\n    at Object.t.createCustomizeError (C:\\\\Users\\\\jhrach700\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\lib\\\\node\\\\index.js:18:98326)\\n    at e.<anonymous> (C:\\\\Users\\\\jhrach700\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\lib\\\\node\\\\index.js:479:14410)\\n    at C:\\\\Users\\\\jhrach700\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\lib\\\\node\\\\index.js:479:12347\\n    at Object.throw (C:\\\\Users\\\\jhrach700\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\lib\\\\node\\\\index.js:479:12452)\\n    at s (C:\\\\Users\\\\jhrach700\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\lib\\\\node\\\\index.js:479:11217)\"}",
+    "CREATE_RESOURCES_ERROR - Error - \n        detail message can see provision.JLu Damage.log in your bot folder"
+  ]
+}

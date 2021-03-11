@@ -1,0 +1,54 @@
+
+# Translate
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+- Translate
+- Translate something to sign language please
+- Convert the words to sign language 
+> entity definitions:
+> @ ml city
+
+# Teach
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+- Teach me some sign language please
+- Instruct me how to say 
+- Inform me something about 
+- Educate me
+- Tell me how to say
+> entity definitions:
+> @ ml city
+
+# Speak
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+- text to speech
+- say something for me
+- say
+> entity definitions:
+> @ ml city
+
+# RandomQuestion
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+- quiz me on something
+- test me on something
+> entity definitions:
+> @ ml city
+
+
+# RealSpeak
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+- Say something for me
+- text to speech
+- word to speech
+- say
+- speak for me
+> entity definitions:
+> @ ml city

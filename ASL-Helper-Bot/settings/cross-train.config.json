@@ -1,0 +1,11 @@
+{
+  "ASL-Helper-Bot.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "Translate": [],
+      "Teach": [],
+      "RandomQuestion": [],
+      "RealSpeak": []
+    }
+  }
+}

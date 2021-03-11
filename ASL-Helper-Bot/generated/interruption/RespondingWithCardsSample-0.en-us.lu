@@ -1,0 +1,54 @@
+
+> LUIS application information
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 3.2.0
+
+
+> # Intent definitions
+
+# Translate
+- Translate
+- Translate something to sign language please
+- Convert the words to sign language
+
+
+# Teach
+- Teach me some sign language please
+- Instruct me how to say
+- Inform me something about
+- Educate me
+- Tell me how to say
+
+
+# Speak
+- text to speech
+- say something for me
+- say
+
+
+# RandomQuestion
+- quiz me on something
+- test me on something
+
+
+# RealSpeak
+- Say something for me
+- word to speech
+- speak for me
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

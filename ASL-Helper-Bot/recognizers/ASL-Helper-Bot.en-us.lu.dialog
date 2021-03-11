@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_ASL-Helper-Bot",
+  "applicationId": "=settings.luis.ASL_Helper_Bot_en_us_lu.appId",
+  "version": "=settings.luis.ASL_Helper_Bot_en_us_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}

@@ -1,0 +1,1853 @@
+> All cards can be defined and managed through .lg files.
+> All cards use the chatdown notation - see here - https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Chatdown#message-commands
+> Multi-line text are enclosed in ```
+> Multi-line text can include inline expressions enclosed in ${expression}.
+> ${TemplateName()} is an inline expression that uses the lgTemplate pre-built function to evaluate a template by name.
+
+# HeroCard
+[HeroCard
+    title = BotFramework Hero Card
+    subtitle = Microsoft Bot Framework
+    text = Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.
+    image = https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg
+    buttons = ${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# TheyCard
+[Activity
+    Attachments = ${json(theyAD())}
+]
+
+# theyAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "They",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+             "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://i.imgur.com/f2xiK5Y.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# BlackYouCard
+[Activity
+    Attachments = ${json(BlackYouAD())}
+]
+
+# BlackYouAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "You",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://i.imgur.com/6AQ1IXR.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+
+# BlackHurtCard
+[Activity
+    Attachments = ${json(BlackHurtAD())}
+]
+
+# BlackHurtAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Hurt",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://i.imgur.com/hYrKIaT.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# HurtCard
+[Activity
+    Attachments = ${json(HurtAD())}
+]
+
+# HurtAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Hurt",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://i.imgur.com/EqQhwIN.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# BlackWellDressedCard
+[Activity
+    Attachments = ${json(BlackWellDressedAD())}
+]
+
+# BlackWellDressedAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Well Dressed",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": "https://i.ibb.co/H7T17xL/Screen-Shot-2021-03-06-at-1-29-34-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+
+
+# BlackPregnantCard
+[Activity
+    Attachments = ${json(BlackPregnantAD())}
+]
+
+# BlackPregnantAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Pregnant",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": "https://i.ibb.co/wghjz0G/Screen-Shot-2021-03-06-at-1-29-38-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+
+
+
+# HappyCard
+[Activity
+    Attachments = ${json(HappyAD())}
+]
+
+# HappyAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Happy",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/YB3fRcZ.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+
+# SadCard
+[Activity
+    Attachments = ${json(SadAD())}
+]
+
+# SadAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Sad",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/Cy6Ahpj.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# SadCardQuest
+[Activity
+    Attachments = ${json(SadQuestAD())}
+]
+
+# SadQuestAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/Cy6Ahpj.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# EmbaressedCard
+[Activity
+    Attachments = ${json(EmbaressedAD())}
+]
+
+# EmbaressedAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Embaressed",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/yLYrMNN.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# HowCard
+[Activity
+    Attachments = ${json(HowAD())}
+]
+
+
+# HowAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "How",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/M0ga5rS.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# AreCard
+[Activity
+    Attachments = ${json(AreAD())}
+]
+
+# AreAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+    {
+      "type": "TextBlock",
+      "text": "Are: No sign language equivalent",
+      "size": "large"
+    },
+    {
+      "type": "TextBlock",
+      "text": "To express the concept of are in ASL you do not use a specific sign but",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "rather you consider what you mean and you choose the sign or set ",
+      "weight": "bolder"
+    },
+    {
+          "type": "TextBlock",
+      "text": "of signs and grammar features that most closely match your meaning. ",
+      "weight": "bolder"
+    },
+        {
+          "type": "TextBlock",
+      "text": "Very typically the concept of are is expressed as part of a question",
+      "weight": "bolder"
+    },
+            {
+          "type": "TextBlock",
+      "text": "that can be answered with a yes or a no. ",
+      "weight": "bolder"
+    },
+                {
+          "type": "TextBlock",
+      "text": "When asking such questions we raise our eyebrows.",
+      "weight": "bolder"
+    },
+{ "type": "Image", 
+"url": "https://lifeprint.com/asl101/signjpegs/a/are.ht1.jpg" 
+}
+            ]
+        }
+    ]
+}
+```
+
+
+
+# YouCard
+[Activity
+    Attachments = ${json(YouAD())}
+]
+
+# YouAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "You",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/id8x4pq.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# YouCardQuest
+[Activity
+    Attachments = ${json(YouqAD())}
+]
+
+# YouqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/id8x4pq.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# HospitalCard
+[Activity
+    Attachments = ${json(HospitalAD())}
+]
+
+# HospitalAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Hospital",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/zGsyo1y.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# LibraryCard
+[Activity
+    Attachments = ${json(LibraryAD())}
+]
+
+# LibraryAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Library",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/hdBHDCv.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# SchoolCard
+[Activity
+    Attachments = ${json(SchoolCardAD())}
+]
+
+# SchoolCardAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "School",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/vHbgw8W.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+# SchoolCardQuest
+[Activity
+    Attachments = ${json(SchoolCardQuestAD())}
+]
+
+# SchoolCardQuestAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/vHbgw8W.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# ICard
+[Activity
+    Attachments = ${json(IAD())}
+]
+
+# IAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "I/me",
+      "size": "large"
+    },
+        {
+      "type": "TextBlock",
+      "text": "In sign language, I and me are the same sign",
+      "weight": "bolder"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/2nT2se2.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# HeCard
+[Activity
+    Attachments = ${json(HeAD())}
+]
+
+# HeAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+    {
+      "type": "TextBlock",
+      "text": "He/She/It",
+      "size": "large"
+    },
+    {
+      "type": "TextBlock",
+      "text": "In sign language, he/she/it are the same sign,",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "you point at the person or thing to which you are referring.",
+      "weight": "bolder"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/6hgbqLv.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# HeCardQuest
+[Activity
+    Attachments = ${json(HeQuestAD())}
+]
+
+# HeQuestAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/6hgbqLv.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# GoodCard
+[Activity
+    Attachments = ${json(GoodCardAD())}
+]
+
+# GoodCardAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Good",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/WIrXoeL.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+# GoodCardQuest
+[Activity
+    Attachments = ${json(GoodCardqAD())}
+]
+
+# GoodCardqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/WIrXoeL.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# MorningCard
+[Activity
+    Attachments = ${json(MorningCardAD())}
+]
+
+# MorningCardAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+               {
+      "type": "TextBlock",
+      "text": "Good",
+      "size": "Morning"
+    },
+     {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/Y16wHAx.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# MorningCardQuest
+[Activity
+    Attachments = ${json(MorningCardQuestAD())}
+]
+
+# MorningCardQuestAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/Y16wHAx.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# HiCard
+[Activity
+    Attachments = ${json(HiAD())}
+]
+
+# HiAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Hi",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://lifeprint.com/asl101/videos/hi.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# ThankCard
+[Activity
+    Attachments = ${json(ThankAD())}
+]
+
+# ThankAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Thank",
+      "size": "large"
+    },
+        {
+      "type": "TextBlock",
+      "text": "You're welcome and thank you are the same in sign language",
+      "weight": "bolder"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/3wtY8tR.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# ThankCardQuest
+[Activity
+    Attachments = ${json(ThankqAD())}
+]
+
+# ThankqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/3wtY8tR.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# WelcomeCard
+[Activity
+    Attachments = ${json(WelcomeAD())}
+]
+
+# WelcomeAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Welcome",
+      "size": "large"
+    },
+        {
+      "type": "TextBlock",
+      "text": "You're welcome and thank you are the same in sign language",
+      "weight": "bolder"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/3wtY8tR.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# DoCard
+[Activity
+    Attachments = ${json(DoAD())}
+]
+
+# DoAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Do",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/BjKGJuf.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+
+# DoCardQuest
+[Activity
+    Attachments = ${json(DoqAD())}
+]
+
+# DoqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/BjKGJuf.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# KnowCard
+[Activity
+    Attachments = ${json(KnowAD())}
+]
+
+# KnowAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Know",
+      "size": "large"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/Qv5TY0c.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+
+# KnowCardQuest
+[Activity
+    Attachments = ${json(KnowqAD())}
+]
+
+# KnowqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": " https://i.imgur.com/Qv5TY0c.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+# SignCardQuest
+[Activity
+    Attachments = ${json(SignqAD())}
+]
+
+# SignqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://i.imgur.com/jZWCsJm.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+
+# SignCard
+[Activity
+    Attachments = ${json(SignAD())}
+]
+
+# SignAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Sign",
+      "size": "large"
+    },
+        {
+      "type": "TextBlock",
+      "text": "sign and sign language can be both expressed in the same way",
+      "weight": "bolder"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://i.imgur.com/jZWCsJm.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+
+
+# LanguageCard
+[Activity
+    Attachments = ${json(LanguageAD())}
+]
+
+# LanguageAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Language",
+      "size": "large"
+    },
+        {
+      "type": "TextBlock",
+      "text": "sign and sign language can be both expressed in the same way",
+      "weight": "bolder"
+    },
+        {
+            "type": "Media",
+            "poster": "https://www.rejoiceschool.com/wp-content/uploads/2019/05/ytclicktoplay.png",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://i.imgur.com/jZWCsJm.mp4"
+                }
+            ]
+        }
+    ]
+}
+```
+
+# LetterD
+[Activity
+    Attachments = ${json(LetterDAD())}
+]
+
+# LetterDAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Letter D",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": "https://i.ibb.co/sHxKz2S/Screen-Shot-2021-03-05-at-10-49-02-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+
+
+# LetterB
+[Activity
+    Attachments = ${json(LetterBAD())}
+]
+
+# LetterBAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Letter B",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": "https://i.ibb.co/7v8pTFD/Screen-Shot-2021-03-05-at-10-47-34-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+# LetterBQuest
+[Activity
+    Attachments = ${json(LetterBqAD())}
+]
+
+# LetterBqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        
+{ "type": "Image", 
+"url": "https://i.ibb.co/7v8pTFD/Screen-Shot-2021-03-05-at-10-47-34-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+# LetterN
+[Activity
+    Attachments = ${json(LetterNAD())}
+]
+
+# LetterNAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Letter N",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": "https://i.ibb.co/DCQqXtb/Screen-Shot-2021-03-05-at-10-59-50-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+# LetterNQuest
+[Activity
+    Attachments = ${json(LetterNqAD())}
+]
+
+# LetterNqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+{ "type": "Image", 
+"url": "https://i.ibb.co/DCQqXtb/Screen-Shot-2021-03-05-at-10-59-50-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+
+
+# LetterC
+[Activity
+    Attachments = ${json(LetterCAD())}
+]
+
+# LetterCAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Letter C",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": "https://i.ibb.co/NK13tVd/Screen-Shot-2021-03-05-at-10-48-56-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+
+
+# LetterS
+[Activity
+    Attachments = ${json(LetterSAD())}
+]
+
+# LetterSAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Letter S",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": "https://i.ibb.co/1Q34cyS/Screen-Shot-2021-03-05-at-10-49-10-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+# LetterR
+[Activity
+    Attachments = ${json(LetterRAD())}
+]
+
+# LetterRAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Letter R",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": " https://i.ibb.co/BCB32d3/Screen-Shot-2021-03-05-at-10-49-15-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+
+
+# LetterRQuest
+[Activity
+    Attachments = ${json(LetterRqAD())}
+]
+
+# LetterRqAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+{ "type": "Image", 
+"url": " https://i.ibb.co/BCB32d3/Screen-Shot-2021-03-05-at-10-49-15-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+# LetterT
+[Activity
+    Attachments = ${json(LetterTAD())}
+]
+
+# LetterTAD
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+      "type": "TextBlock",
+      "text": "Letter T",
+      "size": "large"
+    },
+{ "type": "Image", 
+"url": "https://i.ibb.co/r39sPJP/Screen-Shot-2021-03-05-at-10-49-21-PM.png" 
+}
+            ]
+        }
+    ]
+}
+```
+
+
+
+# Word1
+[HeroCard
+    title = BotFramework Hero Card
+    subtitle = Microsoft Bot Framework
+    text = Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.
+    image = https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg
+    buttons = ${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# Word2
+[HeroCard
+    title = BotFramework Hero Card
+    subtitle = Microsoft Bot Framework
+    text = Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.
+    image = https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg
+    buttons = ${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# Word3
+[HeroCard
+    title = BotFramework Hero Card
+    subtitle = Microsoft Bot Framework
+    text = Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.
+    image = https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg
+    buttons = ${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# AlphabetCard1
+[HeroCard
+    title = BotFramework Hero Card
+    subtitle = Microsoft Bot Framework
+    text = Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.
+    image = https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg
+    buttons = ${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# HeroCardWithMemory(name)
+[Herocard
+    title=${TitleText(name)}
+    subtitle=${SubText()}
+    text=${DescriptionText()}
+    images=${CardImages()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# TitleText(name)
+- Hello, ${name}
+
+# SubText
+- What is your favorite?
+- Don't they all look great?
+- sorry, some of them are repeats
+
+# DescriptionText
+- This is description for the hero card
+
+# CardImages
+- https://picsum.photos/200/200?image=100
+- https://picsum.photos/300/200?image=200
+- https://picsum.photos/200/200?image=400
+
+# cardActionTemplate(type, title, value)
+[CardAction
+    Type = ${if(type == null, 'imBack', type)}
+    Title = ${title}
+    Value = ${value}
+    Text = ${title}
+]
+
+# ThumbnailCard
+[ThumbnailCard
+    title = BotFramework Thumbnail Card
+    subtitle = Microsoft Bot Framework
+    text = Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.
+    image = https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg
+    buttons = Get Started
+]
+
+# SigninCard
+[SigninCard
+    text = BotFramework Sign-in Card
+    buttons = ${cardActionTemplate('signin', 'Sign-in', 'https://login.microsoftonline.com/')}
+]
+
+# AnimationCard
+[AnimationCard
+    title = Microsoft Bot Framework
+    subtitle = Animation Card
+    image = https://docs.microsoft.com/en-us/bot-framework/media/how-it-works/architecture-resize.png
+    media = http://i.giphy.com/Ki55RUbOV5njy.gif
+]
+
+# VideoCard
+[VideoCard
+    title = Big Buck Bunny
+    subtitle = by the Blender Institute
+    text = Big Buck Bunny (code-named Peach) is a short computer-animated comedy film by the Blender Institute
+    image = https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/220px-Big_buck_bunny_poster_big.jpg
+    media = http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4
+    buttons = Learn More
+]
+
+# AudioCard
+[AudioCard
+    title = I am your father
+    subtitle = Star Wars: Episode V - The Empire Strikes Back
+    text = The Empire Strikes Back (also known as Star Wars: Episode V – The Empire Strikes Back)
+    image = https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg
+    media = https://wavlist.com/wav/father.wav
+    buttons = Read More
+]
+
+> The external file reference here 'Resources\adaptiveCard.json' should be marked as 'copy to output directory'
+> Note: The external file will be read as text and any language generation templates/ expressions in the content will be evaluated.
+> You can see this in Resources\adaptiveCard.json that pulls in a passenger name at random based on the call to 'PassengerName' template defined below.
+> Note: Chatdown already supports the ability to create any card type from its json definition. So you can apply this for not just Adaptive cards but to all card types.
+
+# AdaptiveCard
+[Activity
+    Attachments = ${json(adaptivecardjson())}
+]
+
+
+# PassengerName
+- Vishwac
+- Tom
+- Chris
+- Yochay
+
+# AttachmentLayoutType
+- carousel
+- list
+
+# AllCards
+[Activity
+    Attachments = ${HeroCard()} | ${ThumbnailCard()} | ${SigninCard()} | ${AnimationCard()} | ${VideoCard()} | ${AudioCard()} | ${json(adaptivecardjson())}
+    AttachmentLayout = ${AttachmentLayoutType()}
+]
+
+# help
+- ```
+    I can show you examples on different Cards
+    [Suggestions=HeroCard|ThumbnailCard|SigninCard|AnimationCard|VideoCard|AudioCard|AdaptiveCard|AllCards]
+    01 - HeroCard
+    02 - ThumbnailCard
+    03 - SigninCard
+    04 - AnimationCard
+    05 - VideoCard
+    06 - AudioCard
+    07 - AdaptiveCard
+    08 - AllCards
+  ```
+
+
+# adaptivecardjson
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "speak": "Your flight is confirmed for you and 3 other passengers from San Francisco to Amsterdam on Friday, October 10 8:30 AM",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Passengers",
+      "weight": "bolder",
+      "isSubtle": false
+    },
+    {
+      "type": "TextBlock",
+      "text": "${PassengerName()}",
+      "separator": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "${PassengerName()}",
+      "spacing": "none"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${PassengerName()}",
+      "spacing": "none"
+    },
+    {
+      "type": "TextBlock",
+      "text": "2 Stops",
+      "weight": "bolder",
+      "spacing": "medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Fri, October 10 8:30 AM",
+      "weight": "bolder",
+      "spacing": "none"
+    },
+    {
+      "type": "ColumnSet",
+      "separator": true,
+      "columns": [
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "San Francisco",
+              "isSubtle": true
+            },
+            {
+              "type": "TextBlock",
+              "size": "extraLarge",
+              "color": "accent",
+              "text": "SFO",
+              "spacing": "none"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": " "
+            },
+            {
+              "type": "Image",
+              "url": "http://adaptivecards.io/content/airplane.png",
+              "size": "small",
+              "spacing": "none"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "right",
+              "text": "Amsterdam",
+              "isSubtle": true
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "right",
+              "size": "extraLarge",
+              "color": "accent",
+              "text": "AMS",
+              "spacing": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Non-Stop",
+      "weight": "bolder",
+      "spacing": "medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Fri, October 18 9:50 PM",
+      "weight": "bolder",
+      "spacing": "none"
+    },
+    {
+      "type": "ColumnSet",
+      "separator": true,
+      "columns": [
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Amsterdam",
+              "isSubtle": true
+            },
+            {
+              "type": "TextBlock",
+              "size": "extraLarge",
+              "color": "accent",
+              "text": "AMS",
+              "spacing": "none"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": " "
+            },
+            {
+              "type": "Image",
+              "url": "http://adaptivecards.io/content/airplane.png",
+              "size": "small",
+              "spacing": "none"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "right",
+              "text": "San Francisco",
+              "isSubtle": true
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "right",
+              "size": "extraLarge",
+              "color": "accent",
+              "text": "SFO",
+              "spacing": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "spacing": "medium",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "1",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Total",
+              "size": "medium",
+              "isSubtle": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "right",
+              "text": "$4,032.54",
+              "size": "medium",
+              "weight": "bolder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```

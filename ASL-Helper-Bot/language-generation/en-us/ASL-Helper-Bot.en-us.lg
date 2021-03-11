@@ -1,0 +1,359 @@
+[import](common.lg)
+
+# SendActivity_729500()
+-Hi! Welcome to the Sign Language Helper Bot!
+# SendActivity_rU0dU0()
+- heyyyy
+# ChoiceInput_Prompt_kOMtub()
+- What would you like to be quizzed on?
+# TextInput_Prompt_azNWn5()
+-  What would you like me to say?
+# TextInput_Prompt_VoS9bg()
+- What would you like to translate?
+# SendActivity_RBvl9x()
+- this word is not yet in our dictionary
+# SendActivity_IYnNVG()
+- ${HowCard()}
+# SendActivity_9VmkN5()
+- ${AreCard()}
+# SendActivity_iGbyn2()
+- ${AlphabetCard1()}
+# ChoiceInput_Prompt_FiENYz()
+- What is the letter shown?
+# SendActivity_FVbaJl()
+- Correct!
+# SendActivity_g5ySNu()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_s7q4XH()
+- Wanna continue guessing???
+# SendActivity_7GlWhJ()
+- Quiz finished!
+# ChoiceInput_Prompt_batluF()
+- What is the letter shown?
+# SendActivity_lYDX1k()
+- Correct!
+# SendActivity_V7Wzws()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_61CJAy()
+- Wanna continue guessing?
+# SendActivity_b1rXGn()
+- ${LetterNQuest()}
+# ChoiceInput_Prompt_3rid1t()
+- What is the letter shown?
+# SendActivity_FWulg3()
+- Correct!
+# SendActivity_wtJzWK()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_7HDPF3()
+- Wanna continue guessing?
+# SendActivity_UIz0Di()
+- Nice job learning!
+# SendActivity_loYMU5()
+- ${HeCardQuest()}
+# ChoiceInput_Prompt_5bJfLC()
+- What is the word shown?
+# SendActivity_4hHRRS()
+- Correct!
+# SendActivity_ydCly5()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_mnEyzy()
+- Wanna continue guessing?
+# SendActivity_NHK1Bq()
+- ${SchoolCardQuest()}
+# ChoiceInput_Prompt_EjxlwE()
+- What is the word shown?
+# SendActivity_wEDSEP()
+- Correct!
+# SendActivity_xc5b6k()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_753lJQ()
+- Wanna continue guessing?
+# SendActivity_QidVal()
+- ${SadCardQuest()}
+# ChoiceInput_Prompt_5hO5kp()
+- What is the word shown?
+# SendActivity_7CBNqC()
+- Correct!
+# SendActivity_hED42d()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_Sa3ruh()
+- Wanna continue guessing?
+# ChoiceInput_Prompt_EvFCjv()
+- What is the phrase shown?
+# SendActivity_r5RJ4Z()
+- Correct!
+# SendActivity_98K2tX()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_pDU00Q()
+- Wanna continue guessing?
+# ChoiceInput_Prompt_ROdVT9()
+- What is the phrase shown?
+# SendActivity_z3zjUe()
+- Correct!
+# ChoiceInput_Prompt_7YL9JO()
+- Wanna continue guessing?
+# ChoiceInput_Prompt_yTVage()
+- What is the phrase shown?
+# SendActivity_Vy94rf()
+- Correct!
+# SendActivity_zLbjvs()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_DnGIxF()
+- Wanna continue guessing?
+# SendActivity_uNVzYR()
+- Sorry, that was wrong.
+# ChoiceInput_Prompt_yxrOs8()
+- What subject would you like to learn?
+# SendActivity_XPVS0H()
+- ${AlphabetCard1()}
+# ChoiceInput_Prompt_qzYoCV()
+- Do you want to continue learning?
+# SendActivity_Gb2tlG()
+- ${AlphabetCard1()}
+# ChoiceInput_Prompt_q0KWW7()
+- Do you want to continue learning?
+# SendActivity_xVH1qH()
+- Below is a random phrase in sign language
+# SendActivity_HN3KKY()
+- ${DoCard()}
+# SendActivity_sdRgla()
+- ${KnowCard()}
+# SendActivity_HldPgO()
+- ${SignCard()}
+# SendActivity_7F93sI()
+- ${LanguageCard()}
+# SendActivity_NGi7gx()
+- ${ThankCard()}
+# SendActivity_8Bc6AT()
+- ${YouCard()}
+# SendActivity_EmkCDU()
+- ${WelcomeCard()}
+# SendActivity_L8i35R()
+- Translation finished!
+# SendActivity_datrE0()
+- ${LetterRQuest()}
+# SendActivity_JcREsl()
+- ${LetterBQuest()}
+# SendActivity_StgfTr()
+- ${AreCard()}
+# SendActivity_VcQ5lU()
+- ${DoCardQuest()}
+# SendActivity_QQejkk()
+- ${YouCardQuest()}
+# SendActivity_4oKNuo()
+- ${KnowCardQuest()}
+# SendActivity_9V2oUT()
+- ${SignCardQuest()}
+# SendActivity_CVqnbY()
+- ${ThankCardQuest()}
+# SendActivity_AvNhZ1()
+- ${YouCardQuest()}
+# SendActivity_pipax3()
+- ${GoodCardQuest()}
+# SendActivity_k4ptKe()
+- ${MorningCardQuest()}
+# SendActivity_ap7hCd()
+- ${LetterD()}
+# ChoiceInput_Prompt_3gtj29()
+- Do you want to continue learning?
+# SendActivity_QXnx7t()
+- ${LetterB()}
+# ChoiceInput_Prompt_kzKcVV()
+- Do you want to continue learning?
+# SendActivity_kLbjy0()
+- ${LetterC()}
+# ChoiceInput_Prompt_jn6li2()
+- Do you want to continue learning?
+# SendActivity_79dJkf()
+- ${LetterS()}
+# ChoiceInput_Prompt_7ItU3q()
+- Do you want to continue learning?
+# SendActivity_A5I1iu()
+- ${LetterT()}
+# ChoiceInput_Prompt_v26JNL()
+- Do you want to continue learning?
+# SendActivity_GXQ9qr()
+- ${LetterR()}
+# ChoiceInput_Prompt_blWcTV()
+- Do you want to continue learning?
+# ChoiceInput_Prompt_nVr13K()
+- What word set would you like to select?
+# SendActivity_9DkPsc()
+- ${HeCard()}
+# ChoiceInput_Prompt_sP39Ih()
+- Do you want to continue learning?
+# SendActivity_0Ib4tA()
+- ${ICard()}
+# ChoiceInput_Prompt_PS66We()
+- Do you want to continue learning?
+# SendActivity_QbTfQb()
+- Below is a random word
+# SendActivity_m9nG0J()
+- ${HowCard()}
+# ChoiceInput_Prompt_vQExFR()
+- Do you want to continue learning?
+# SendActivity_NYADLz()
+- ${ThankCard()}
+# ChoiceInput_Prompt_Zc3uwH()
+- Do you want to continue learning?
+# SendActivity_F7pXoU()
+- ${AreCard()}
+# ChoiceInput_Prompt_CvHiws()
+- Do you want to continue learning?
+# SendActivity_IG8AI1()
+- ${LibraryCard()}
+# ChoiceInput_Prompt_9jhJdg()
+- Do you want to continue learning?
+# SendActivity_AMZCVm()
+- ${SchoolCard()}
+# ChoiceInput_Prompt_OZGkoU()
+- Do you want to continue learning?
+# SendActivity_KG0eR8()
+- ${HospitalCard()}
+# ChoiceInput_Prompt_9UNdZZ()
+- Do you want to continue learning?
+# SendActivity_I8ED6X()
+- ${HappyCard()}
+# ChoiceInput_Prompt_KQD2XR()
+- Do you want to continue learning?
+# SendActivity_LMFXWD()
+- ${SadCard()}
+# ChoiceInput_Prompt_J27c85()
+- Do you want to continue learning?
+# SendActivity_u9RPFU()
+- ${EmbaressedCard()}
+# ChoiceInput_Prompt_nJZTs7()
+- Do you want to continue learning?
+# ChoiceInput_Prompt_BbCMLJ()
+-what phrase set do you want to select?
+# SendActivity_VhLlxe()
+- ${HowCard()}
+# SendActivity_WKxiw1()
+- ${AreCard()}
+# SendActivity_rCKHj5()
+- ${YouCard()}
+# ChoiceInput_Prompt_NFlJDT()
+- Do you want to continue learning?
+# SendActivity_kQdL8D()
+- ${ThankCard()}
+# SendActivity_vdJWZh()
+- ${YouCard()}
+# ChoiceInput_Prompt_Sq5dvM()
+- Do you want to continue learning?
+# SendActivity_Bs8ruo()
+- ${DoCard()}
+# SendActivity_9Hje47()
+- ${YouCard()}
+# SendActivity_Afk5IM()
+- ${KnowCard()}
+# SendActivity_kodMP2()
+- ${SignCard()}
+# ChoiceInput_Prompt_IhNM6U()
+- Do you want to continue learning?
+# SendActivity_2cB7cB()
+- ${DoCard()}
+# SendActivity_dYQlQp()
+- ${YouCard()}
+# SendActivity_bhSjF1()
+- ${KnowCard()}
+# SendActivity_v22gNP()
+- ${SignCard()}
+# ChoiceInput_Prompt_NPYRo3()
+- Do you want to continue learning?
+# SendActivity_z0N1Rj()
+- ${ICard()}
+# SendActivity_fagetu()
+- ${KnowCard()}
+# SendActivity_DucABF()
+- ${SignCard()}
+# ChoiceInput_Prompt_uEFgB1()
+- Do you want to continue learning?
+# SendActivity_3rzmQz()
+- ${HowCard()}
+# SendActivity_LDqOAh()
+- ${AreCard()}
+# SendActivity_idAack()
+- ${YouCard()}
+# ChoiceInput_Prompt_MVwGuL()
+- Do you want to continue learning?
+# SendActivity_tDF3lR()
+- ${HiCard()}
+# ChoiceInput_Prompt_ZDOyoy()
+- Do you want to continue learning?
+# SendActivity_UI751g()
+- ${GoodCard()}
+# SendActivity_NFuWjW()
+- ${MorningCard()}
+# ChoiceInput_Prompt_aoysR9()
+- Do you want to continue learning?
+# ChoiceInput_Prompt_ej31Ba()
+- Would you like to learn a word in the BASL?
+# ChoiceInput_Prompt_0yNs7d()
+- Would you like to learn a phrase in the BASL?
+# ChoiceInput_Prompt_S2h0io()
+- We have a BASL translation for the word: '${dialog.foreach.value}'. Do you want to view the BASL?
+# SendActivity_vkuVcp()
+- ${YouCard()}
+# ChoiceInput_Prompt_KbhRfR()
+- We have a BASL translation for the word: '${dialog.foreach.value}'. Do you want to view the BASL?
+# SendActivity_einR6u()
+- ${HurtCard()}
+# ChoiceInput_Prompt_S8fvx1()
+- We have a BASL translation for the word: '${dialog.foreach.value}'. Do you want to view the BASL?
+# SendActivity_b2RqW1()
+- ${YouCard()}
+# SendActivity_wE9psg()
+- ${BlackHurtCard()}
+# SendActivity_xfocVl()
+- ${BlackPregnantCard()}
+# SendActivity_g4oQNA()
+- ${BlackWellDressedCard()}
+# SendActivity_UY6JHN()
+- ${BlackYouCard()}
+# SendActivity_5AWTq3()
+- ${BlackYouCard()}
+# SendActivity_2SlRwb()
+- I'm sorry. I did not understand you wanted me to do. 
+# SendActivity_AFsM8l()
+- Please tell me something like "translate ..." or "teach me something".
+# SendActivity_xG1KKU()
+-I can perform actions to help you with American Sign Language, including:
+
+# SendActivity_dLIG2a()
+-  What would you like me to do?
+# SendActivity_1ZTxOO()
+- Say {$text_to_speech}
+# SendActivity_M8c5aH()
+- ${user.speech}
+# SendActivity_VoUwkW()
+- ${TheyCard()}
+# SendActivity_uKFPbd()
+- ${TheyCard()}
+# SendActivity_bZpTLJ()
+- ${ICard()}
+# SendActivity_f3XBNn()
+- ${HospitalCard()}
+# SendActivity_LapgPW()
+- ${SchoolCard()}
+# SendActivity_z6phk3()
+- ${HeCard()}
+# ChoiceInput_Prompt_7huhTK()
+- Do you want to continue learning?
+# ChoiceInput_Prompt_UX8H45()
+- Do you want to continue learning?
+# TextInput_Prompt_4YUTVL()
+- Hit the microphone icon and make a sound
+# TextInput_Prompt_GYKx3g()
+- What would you like me to say?
+# SendActivity_y2tzie()
+-We also include translations of Black American Sign Language (BASL) in our efforts to make the sign language community more inclusive!
+# SendActivity_VSkrTv()
+- Translating
+# SendActivity_yUZIEh()
+- Teaching
+# SendActivity_j21y5l()
+- Quizzing
+# SendActivity_HRJO6D()
+- Text to speech
+# SendActivity_THVuGI()
+- And more!
