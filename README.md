@@ -1,4 +1,4 @@
-# ASL-Helper_Bot
+# ASL-Helper-Bot
 This folder contains a the ASL Assistant bot created with Bot Framework Composer.
 
 To test this bot locally, open the ASL-Helper-Bot folder in Composer, then click "Start Bot".
